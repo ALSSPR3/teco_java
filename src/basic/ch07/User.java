@@ -55,7 +55,7 @@ public class User {
 		// 참조 변수 user2 기능인 checkPassword 호출해서 결과를 확인 해주세요
 		// -- F
 		boolean user2Result = user2.checkPassword("333");
-		System.out.println("user2 : " + user1Result);
+		System.out.println("user2 : " + user2Result);
 		// -- T
 		boolean user2Result2 = user2.checkPassword("555");
 		System.out.println("user2 두번째 결과 : " + user2Result2);

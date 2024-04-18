@@ -14,7 +14,6 @@ public class StudentMainTest {
 		student1.showInfo(); 
 
 		Student student2 = new Student();
-
 		student2.studentID = 2001;
 		student2.studentName = "야스오";
 		student2.address = "붉은언덕";
