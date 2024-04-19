@@ -16,7 +16,7 @@ public class Bank {
 		Bank.bankName = bankName;
 	}
 
-	public void bankAccount(Account account) {
+	public void userAccount(Account account) {
 		account.bankAccount(bankNum);
 	}
 	

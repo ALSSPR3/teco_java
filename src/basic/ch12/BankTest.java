@@ -6,6 +6,6 @@ public class BankTest {
 		
 		Bank bank1 = new Bank();
 
-		bank1.bankAccount("111-1111");
+		// bank1.userAccount("111-1111");
 	}
 }
