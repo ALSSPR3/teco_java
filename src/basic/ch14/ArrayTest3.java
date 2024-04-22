@@ -1,7 +1,5 @@
 package basic.ch14;
 
-import java.util.Iterator;
-
 public class ArrayTest3 {
 
 	public static void main(String[] args) {
