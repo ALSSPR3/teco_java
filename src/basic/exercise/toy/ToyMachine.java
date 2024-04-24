@@ -9,7 +9,7 @@ public class ToyMachine {
 
 	String[] product;
 	String type;
-	
+
 	public void pickUpProduct(String type) {
 		System.out.println(type + "을 뽑았습니다!");
 	}
