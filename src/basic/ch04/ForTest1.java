@@ -1,7 +1,5 @@
 package basic.ch04;
 
-import java.util.Iterator;
-
 public class ForTest1 {
 
 	// 코드의 시작점

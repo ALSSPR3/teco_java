@@ -1,7 +1,5 @@
 package useful;
 
-import java.lang.*;
-
 /**
  * Object 클래스는 모든 클래스의 최상위 클래스이다. import java.lang.*; 프로그래밍시 import 하지 않아도 자동으로
  * 가지고 온다. 자바는 단일 상속만 지원 합니다. 단, Object 클래스를 제외 하고!!

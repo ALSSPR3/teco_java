@@ -1,7 +1,5 @@
 package basic.ch13;
 
-import java.util.Iterator;
-
 public class LottoGame2 {
 
 	public static void main(String[] args) {

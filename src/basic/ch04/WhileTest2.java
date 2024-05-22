@@ -1,7 +1,5 @@
 package basic.ch04;
 
-import java.util.Scanner;
-
 public class WhileTest2 {
 
 	// 코드의 시작점

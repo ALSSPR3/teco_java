@@ -1,7 +1,5 @@
 package starcraft.ver02;
 
-import java.util.Iterator;
-
 public class Hatchery {
 
 	private int hatcheryNumber;

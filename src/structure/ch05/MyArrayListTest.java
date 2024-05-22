@@ -39,46 +39,46 @@ public class MyArrayListTest {
 		// 전체 삭제
 		// list.clear();
 		System.out.println("전체 삭제 확인 : " + list);
-		
+
 		// 리스트 사이즈 확인 (요소의 갯수, 사이즈 개념)
 		System.out.println(list.size());
-		
+
 		// 하나의 요소를 꺼내는 방법
-		try {			
+		try {
 			System.out.println(list.get(0));
 		} catch (Exception e) {
 			System.out.println("프로그램이 종료 되지 않게 처리");
 		}
-		
+
 		// ArrayList 와 반복문의 활용
 		nums = list; // 복사 개념 | 필!! 얕은 복사 개념!!!
 		System.out.println(list);
 		System.out.println("-----------");
-		
+
 		list.add(10000);
 		System.out.println(nums);
-		
+
 		// for(Integer i : list) {} <-- list 는 컴파일 시점에 Object 타입으로 인식
-		
+
 		for (Integer i : nums) {
 			System.out.println("i : " + i);
 		}
-		
+
 		// ArrayList 안에 값이 포함 되어 있는가 확인
 		System.out.println("3이 nums 리스트에 존재 하는가? --> " + nums.contains(3));
 		System.out.println("500이 nums 리스트에 존재 하는가? --> " + nums.contains(500));
-		
+
 		// 요소의 위치(index)확인
 		System.out.println("요소 3이 몇 번째 인덱스에 위치 하니 --> " + nums.indexOf(3));
 		System.out.println("요소 10이 몇 번째 인덱스에 위치 하니 --> " + nums.indexOf(10));
 		System.out.println("요소 500이 몇 번째 인덱스에 위치 하니 --> " + nums.indexOf(500));
-		
+
 		// Iterator 요소 순회( 반복자 )
 		Iterator<Integer> iter = nums.iterator();
 		while (iter.hasNext()) {
 			System.out.println("while 을 활용하는 방법 : " + iter.next());
 		}
-		
+
 	}
 
 }
